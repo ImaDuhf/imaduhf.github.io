@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: burlywood;
+  margin: 0;
+}
+
+.root {
+  /* nåt skit här här*/
+  width: 100%;
+  background-color: burlywood;
+}
+
+.hero-title {
+  margin-top: 5rem;
+}
+
+.hero-title h1 {
+  font-size: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-title h2 {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.entry-screen {
+  height: 100vh;
+  background-image: url("/images/DYNAMiTE.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  height: 40vh;
+  max-width: 100%;
+  background-color: burlywood;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.album-art {
+  margin: 5rem;
+  background-color: burlywood;
+}
+
+.album-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hidden-info {
+  display: none;
+}
+
+.cover:hover + .hidden-info {
+  display: block;
+  color: cadetblue;
+}
+/*# sourceMappingURL=main.css.map */
