@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1>My First Github Pages Site!</h1>
-
     <h2>Site testing for now</h2>
 </body>
 </html>
