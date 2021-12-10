@@ -47,11 +47,17 @@ body,html {
 .album-info {
     display: flex;
     flex-direction: column;
+
+    img {
+        pointer-events: none;
+        user-select: none;
+    }
 }
 
 .album-title-text {
     font-size: 1.6rem;
     text-align: center;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-content: center;

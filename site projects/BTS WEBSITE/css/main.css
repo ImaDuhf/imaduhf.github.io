@@ -70,9 +70,18 @@ body, html {
           flex-direction: column;
 }
 
+.album-info img {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .album-title-text {
   font-size: 1.6rem;
   text-align: center;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
