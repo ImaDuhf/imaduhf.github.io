@@ -42,26 +42,36 @@ body,html {
 .album-art {
     margin: 5rem;
     background-color: burlywood;
-}
 
-.album-info {
-    display: flex;
-    flex-direction: column;
 
-    img {
-        pointer-events: none;
-        user-select: none;
+    .album-info {
+        display: flex;
+        flex-direction: column;
+    
+        img {
+            pointer-events: none;
+            user-select: none;
+        }
     }
-}
+    
+    .album-title-text {
+        font-size: 1.6rem;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 
-.album-title-text {
-    font-size: 1.6rem;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+    .album-info-text {
+        font-size: 1rem;
+    }
+    button {
+        text-decoration: none;
+        border: none;
+        background: burlywood;
+    }
 }
 
 .hidden-info {
@@ -72,3 +82,4 @@ body,html {
     display: block;
     color: cadetblue;
 }
+
